@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&family=Indie+Flower&display=swap');
+body{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    background-color: black;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+}
+.container{
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 35%;
+}
+input{
+    width: 60%;
+    height: 18.5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+form input:focus {
+    outline: 1px solid var(--primary-color);
+  }
+button{
+    background-color: #fff;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+button:hover{
+    background-color: rgb(236, 234, 234);
+}
+textarea{
+    width: 60%;
+    resize: none;
+    margin-top: 2.5%;
+    height: 18.5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
